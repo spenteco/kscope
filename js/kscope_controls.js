@@ -6,7 +6,7 @@ function handleControl(widget) {
     }
 
     if (widget == 'about_widget') {
-        window.open('/posts/mutablestanzas.html');
+        window.open('/posts/kscope.html');
     }
     
     if (widget == 'twitter_widget') {
