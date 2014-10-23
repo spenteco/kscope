@@ -1,0 +1,51 @@
+
+#heading {
+    height: 60px;
+}
+
+.leftPane {
+    float: left;
+}
+
+.page_title {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #888888;
+    font-weight: bold;
+}
+
+.instructions {
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: serif;
+    color: #888888;
+    font-style: italic;
+}
+
+.controls {
+    float: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    text-align: right;
+}
+  
+.control_widgets {
+    margin-left: 5px;
+}
+
+.control_line {
+    margin-bottom: 15px;
+}
+
+.control_a:hover {
+    border-bottom: 6px solid #888888;
+}
+
+a {
+    outline: none;
+}
+
+
+#hidden_controls_container {
+    display: none;
+}

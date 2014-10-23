@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>montaukedp.com kaleidoscope</title>
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/p5.js"></script>
+        <script src="js/kscope_controls.js"></script>
+        <script src="js/kscope.js"></script>
+        <link href="css/kscope.css" rel="stylesheet" type="text/css".>
+	</head>
+	<body>
+        <div id="heading">
+            <div class="leftPane">
+                <div class="page_title">p5.js kaleidoscope</div>
+                <div class="instructions">Click the image to pause and restart the kaleidoscope.  Press any key to change the underlying image.  Right click to save an image.</div>
+            </div>
+            <div class="controls">
+                <span class="control_widgets" id="twitter_widget"></span>
+                <span class="control_widgets" id="github_widget"></span>
+                <span class="control_widgets" id="about_widget"></span>
+            </div>
+        </div>
+        
+        <div id="hidden_controls_container">
+            <span id="enabled_about_widget"><img src="svg/enabled.about.svg"/></span>
+            <span id="enabled_github_widget"><img src="svg/enabled.github.svg"/></span>
+            <span id="enabled_twitter_widget"><img src="svg/enabled.twitter.svg"/></span>
+        </div>
+	</body>
+</html>
