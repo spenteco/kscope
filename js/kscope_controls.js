@@ -2,7 +2,7 @@
 function handleControl(widget) {
 
     if (widget == 'github_widget') {
-        window.open('https://github.com/spenteco/mutableStanzas');
+        window.open('https://github.com/spenteco/kscope');
     }
 
     if (widget == 'about_widget') {
